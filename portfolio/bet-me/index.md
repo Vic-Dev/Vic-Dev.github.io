@@ -9,7 +9,7 @@ Bet Me is a demo project of a web app where users can post challenges they hope 
 
 **[Live on Heroku](https://bet-me.herokuapp.com/)**
 
-![Bet Me login](assets/bet-me-login.png)
+![Bet Me login](http://vic-dev.github.io/portfolio/bet-me/assets/bet-me-login.png)
 
 ## Description
 

@@ -1,2 +1,5 @@
 # Ignore these files
 *.ai
+_site
+.sass-cache
+.jekyll-metadata

@@ -1,25 +1,38 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "How to make a blog with Jekyll"
 date:   2016-05-29 13:48:38 -0400
-categories: jekyll update
+categories: blog jekyll
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+# What is Jekyll?
 
-Jekyll also offers powerful support for code snippets:
+Jekyll is a gem that facilitates the generation of static blog sites. GitHub Pages supports Jekyll, which allows developers to quickly create impressive blog sites for free!
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+# What is GitHub Pages?
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+GitHub Pages allows each developer with a GitHub account to create a static web site hosted from their GitHub repository.
+
+
+# Okay enough definitions, how do I get started?
+
+To start off, type `$ gem install jekyll` in your terminal to install Jekyll. 
+
+Next, type `$ jekyll new your-site-name` to create a new Jekyll site. Jekyll will create a directory with the name you have 
+given, and fill it with files and folders that follow Jekyll's directory structure. 
+
+You can use `$ cd your-site-name` to change directories in to your site's directory. 
+
+Once you are in your project folder, you can type `$ jekyll serve` to launch your server on <http://localhost:4000>.
+
+For more information on setting up Jekyll visit [Jekyll](https://jekyllrb.com/).
+
+To get started with GitHub Pages, go to [GitHub Pages](https://pages.github.com/).
+
+
+# Writing blog posts
+
+Jekyll's main purpose is to take text written in Markdown, or even plain HTML, and run it through layout files that transforms the way it looks on a web page. This makes writing sites with Jekyll very quick and easy.
+
+If you are unfamiliar with Markdown, this is a great resource [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).

@@ -1,40 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>Vic-Dev</title>
+    <description>This blog details my trials and tribulations in this continuous journey to learn to code.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 May 2016 13:51:44 -0400</pubDate>
-    <lastBuildDate>Sun, 29 May 2016 13:51:44 -0400</lastBuildDate>
+    <link>http://vic-dev.github.io//</link>
+    <atom:link href="http://vic-dev.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 29 May 2016 15:24:08 -0400</pubDate>
+    <lastBuildDate>Sun, 29 May 2016 15:24:08 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>How to make a blog with Jekyll</title>
+        <description>&lt;h1 id=&quot;what-is-jekyll&quot;&gt;What is Jekyll?&lt;/h1&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Jekyll is a gem that facilitates the generation of static blog sites. GitHub Pages supports Jekyll, which allows developers to quickly create impressive blog sites for free!&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;h1 id=&quot;what-is-github-pages&quot;&gt;What is GitHub Pages?&lt;/h1&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;GitHub Pages allows each developer with a GitHub account to create a static web site hosted from their GitHub repository.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;okay-enough-definitions-how-do-i-get-started&quot;&gt;Okay enough definitions, how do I get started?&lt;/h1&gt;
 
+&lt;p&gt;To start off, type &lt;code class=&quot;highlighter-rouge&quot;&gt;$ gem install jekyll&lt;/code&gt; in your terminal to install Jekyll.&lt;/p&gt;
+
+&lt;p&gt;Next, type &lt;code class=&quot;highlighter-rouge&quot;&gt;$ jekyll new your-site-name&lt;/code&gt; to create a new Jekyll site. Jekyll will create a directory with the name you have 
+given, and fill it with files and folders that follow Jekyll’s directory structure.&lt;/p&gt;
+
+&lt;p&gt;You can use &lt;code class=&quot;highlighter-rouge&quot;&gt;$ cd your-site-name&lt;/code&gt; to change directories in to your site’s directory.&lt;/p&gt;
+
+&lt;p&gt;Once you are in your project folder, you can type &lt;code class=&quot;highlighter-rouge&quot;&gt;$ jekyll serve&lt;/code&gt; to launch your server on &lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For more information on setting up Jekyll visit &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To get started with GitHub Pages, go to &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;writing-blog-posts&quot;&gt;Writing blog posts&lt;/h1&gt;
+
+&lt;p&gt;Jekyll’s main purpose is to take text written in Markdown, or even plain HTML, and run it through layout files that transforms the way it looks on a web page. This makes writing sites with Jekyll very quick and easy.&lt;/p&gt;
+
+&lt;p&gt;If you are unfamiliar with Markdown, this is a great resource &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;Markdown Cheatsheet&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 29 May 2016 13:48:38 -0400</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2016/05/29/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/05/29/welcome-to-jekyll.html</guid>
+        <link>http://vic-dev.github.io//blog/jekyll/2016/05/29/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://vic-dev.github.io//blog/jekyll/2016/05/29/welcome-to-jekyll.html</guid>
         
+        
+        <category>blog</category>
         
         <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     

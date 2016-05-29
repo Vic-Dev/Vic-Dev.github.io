@@ -4,7 +4,11 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-header">Welcome</h1>
+  <p class="post-content">Hi! I am Victoria. Welcome to my blog, where I (hopefully) write helpful tutorials, informative walkthroughs, and perhaps just personal experiences or anecdotes, as I go through this journey of learning to program. This blog focuses on building web apps, adding custom styling and themes, and exploring different languages, frameworks, and software technologies. My hope is that you will find my posts helpful, easy to read, and that you will come away from reading my posts feeling that you have learned something new!</p>
+
+
+  <h1 class="page-heading">All blog posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -18,6 +22,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
 </div>

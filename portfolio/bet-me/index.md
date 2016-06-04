@@ -21,6 +21,5 @@ This app is intended to allow users to post personal challenges and invite frien
 - Developed using [ruby](https://www.ruby-lang.org/en/) and [sinatra](http://www.sinatrarb.com/)
 - Secure sign up, login, logout using [bcrypt](https://github.com/codahale/bcrypt-ruby)
 - Database in [postgres](https://www.postgresql.org/)
-- There's a ball involved. And paddles. Feature!
 
 Question? Problems? Email me! <a href="mailto:{{ site.email }}">{{ site.email }}</a>

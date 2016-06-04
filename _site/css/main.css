@@ -315,6 +315,9 @@ pre {
       .post-content h4 {
         font-size: 18px; } }
 
+.list-group-item {
+  margin-top: 20px; }
+
 /**
  * Syntax highlighting styles
  */

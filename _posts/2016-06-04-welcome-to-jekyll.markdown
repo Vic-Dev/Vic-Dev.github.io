@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to make a blog with Jekyll"
-date:   2016-05-29 13:48:38 -0400
+date:   2016-06-04 13:48:38 -0400
 categories: blog jekyll
 ---
 
@@ -35,4 +35,20 @@ To get started with GitHub Pages, go to [GitHub Pages](https://pages.github.com/
 
 Jekyll's main purpose is to take text written in Markdown, or even plain HTML, and run it through layout files that transforms the way it looks on a web page. This makes writing sites with Jekyll very quick and easy.
 
-If you are unfamiliar with Markdown, this is a great resource [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+If you are unfamiliar with Markdown, this is a great resource: [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+To make a new post, create a new file under the `_posts` folder, with the naming convention `YEAR-MONTH-DAY-title.markdown`. Next, include the [YAML Front Matter](https://jekyllrb.com/docs/frontmatter/) at the top of the file:
+
+{% highlight markdown %}
+---
+layout: post
+title:  "title"
+date:   YEAR-MONTH-DAY HOUR:MINUTE:SECOND -TIMEZONE
+categories: RELEVANT CATEGORIES
+---
+{% endhighlight %}
+
+Next, start blogging! To see what your blog post will look like, visit <http://localhost:4000> after you have launched your local server.
+
+That sums up the basics of creating a blog with Jekyll! Check back soon for an update on how to add a portfolio to your Jekyll blog site.
+

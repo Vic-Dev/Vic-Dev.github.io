@@ -63,3 +63,46 @@ h3 {
 img[alt=Cat] { 
   width: 200px; 
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  float: left;
+}
+
+.bottom-content {
+  clear: both;
+
+  h5 {
+    float: left;
+  }
+
+  p {
+    float: right;
+  }
+
+  ul {
+    clear: both;
+  }
+}
+
+.resume {
+  hr {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .projects h4 {
+    border-bottom: 1px solid aqua;
+    width: 50%;
+  }
+}

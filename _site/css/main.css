@@ -526,8 +526,15 @@ h2 {
     left: 0;
     z-index: -1;
     transform: rotate(2deg); }
+  .resume .projects li {
+    list-style-type: square;
+    color: aqua; }
+    .resume .projects li p {
+      color: black;
+      margin: 0; }
   .resume .projects li:last-child {
-    text-align: center; }
+    text-align: center;
+    list-style-type: none; }
 .resume .skills, .resume .education, .resume .community {
   display: inline-block;
   width: 25%;

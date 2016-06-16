@@ -144,8 +144,19 @@ h2 {
       transform: rotate(2deg);
     }
 
+    li {
+      list-style-type: square;
+      color: aqua;
+
+      p {
+        color: black;
+        margin: 0;
+      }
+    }
+
     li:last-child {
       text-align: center;
+      list-style-type: none;
     }
   }
   .skills, .education, .community {

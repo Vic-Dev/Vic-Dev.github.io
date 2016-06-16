@@ -462,6 +462,9 @@ pre {
 ul {
   list-style: none; }
 
+h4 {
+  margin-bottom: 0; }
+
 h3 {
   text-align: center; }
 
@@ -472,13 +475,15 @@ body {
   font-family: 'Open Sans', sans-serif; }
 
 h2 {
-  font-weight: 600; }
+  font-weight: 600;
+  margin: 0; }
 
 .top-content {
   display: flex;
   flex-direction: column;
-  width: 80%;
-  float: left; }
+  width: 73%;
+  float: left;
+  margin-right: 2%; }
 
 .bottom-content {
   clear: both; }
@@ -492,7 +497,70 @@ h2 {
 .resume hr {
   width: 80%;
   margin-left: 10%;
-  margin-right: 10%; }
-.resume .projects h4 {
-  border-bottom: 1px solid aqua;
-  width: 50%; }
+  margin-right: 10%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.3), transparent); }
+.resume .title p {
+  margin-bottom: 5%; }
+.resume .summary {
+  box-shadow: -15px -15px 0px aqua;
+  background: #eee;
+  padding: 5px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+  .resume .summary p {
+    display: inline-block;
+    padding-left: 2%;
+    padding-right: 2%; }
+.resume .projects {
+  margin-top: 5%; }
+.resume .projects span {
+  border-top: aqua 20px solid;
+  width: 48%;
+  display: block;
+  position: relative;
+  top: -21px;
+  left: 0;
+  z-index: -1;
+  transform: rotate(2deg); }
+.resume .skills, .resume .education, .resume .community {
+  display: inline-block;
+  width: 25%;
+  margin-top: 50px; }
+.resume .skills h4 {
+  margin: auto; }
+  .resume .skills h4 span:first-child {
+    border-top: 12px solid aqua;
+    width: 35%;
+    display: block;
+    z-index: -1;
+    position: relative;
+    top: 15px;
+    left: -10px;
+    transform: rotate(-5deg); }
+.resume .education span, .resume .community span {
+  border-top: 20px solid aqua;
+  width: 100%;
+  display: block;
+  z-index: -1;
+  position: relative;
+  top: 20px;
+  left: -10px;
+  transform: rotate(2deg); }
+.resume .education p {
+  font-size: 0.9em; }
+.resume .education h4 {
+  margin: auto; }
+.resume .community h5 {
+  float: left; }
+.resume .community p {
+  float: right; }
+.resume .community ul {
+  clear: both;
+  margin: 0; }
+.resume .bottom-content h3 {
+  margin-top: 5%; }
+.resume .bottom-content ul {
+  margin-bottom: 30px; }
